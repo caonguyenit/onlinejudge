@@ -200,6 +200,15 @@
             #navigation {
                 top: 27px;
             }
+            #footer-content {
+                text-align: center;
+                color: #908384;
+                background-color: #ededed;
+                padding: 16px 0px;
+            }
+            .footer-info {
+            margin: 16px 0px;
+            }
         </style>
     </noscript>
     <!-- Facebook Pixel Code -->
@@ -357,17 +366,19 @@
     {% block bodyend %}{% endblock %}
 
     <footer>
-        <span id="footer-content">
+        <div id="footer-content">
             THƯỜNG TRỰC BAN TỔ CHỨC<br/>
-            TRUNG TÂM PHÁT TRIỂN KHOA HỌC, CÔNG NGHỆ VÀ TÀI NĂNG TRẺ<br/>
-            Center for Vietnam Young Talents, Science and Technology (CYTAST)<br/>
-            Địa chỉ: Số 7 Xã Đàn - Đống Đa - Hà Nội<br/>
-            ĐT: (024) 3577 2353<br/>
-            Website: http://tainangviet.vn<br/>
-            Email: tainangviet.twd@gmail.com<br/>
-            Hotline: 0344 268 982 (Đ/c Trung)<br/>
-            Hệ thống được hỗ trợ phát triển bởi: Cộng đồng Olympic Tin học Việt Nam (VNOI) và Trường Công nghệ thông tin và Truyền thông, Đại học Bách khoa Hà Nội (SoICT-HUST)<br/>
-        </span>
+            <b>TRUNG TÂM PHÁT TRIỂN KHOA HỌC, CÔNG NGHỆ VÀ TÀI NĂNG TRẺ<br/>
+            Center for Vietnam Young Talents, Science and Technology (CYTAST)<br/></b>
+            <div class="footer-info">
+              Địa chỉ: Số 7 Xã Đàn - Đống Đa - Hà Nội<br/>
+              ĐT: (024) 3577 2353<br/>
+              Website: http://tainangviet.vn<br/>
+              Email: tainangviet.twd@gmail.com<br/>
+              Hotline: 0344 268 982 (Đ/c Trung)<br/>
+            </div>
+            <i>Hệ thống được hỗ trợ phát triển bởi: Cộng đồng Olympic Tin học Việt Nam (VNOI) và Trường Công nghệ thông tin và Truyền thông, Đại học Bách khoa Hà Nội (SoICT-HUST)<br/></i>
+          </div>
     </footer>
 </div>
 </body>
