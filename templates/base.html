@@ -379,6 +379,11 @@
             </div>
             <i>Hệ thống được hỗ trợ phát triển bởi: Cộng đồng Olympic Tin học Việt Nam (VNOI) và Trường Công nghệ thông tin và Truyền thông, Đại học Bách khoa Hà Nội (SoICT-HUST)<br/></i>
         </div>
+        <form id="set_language" action="{{ url('set_language') }}" method="post" style="display: inline">
+            {% csrf_token %}
+        <input name="next" type="hidden" value="{{ request.get_full_path() }}">
+        <input name="language" type="hidden" value="{{LANGUAGE_CODE}}">
+      </form>
     </footer>
 </div>
 </body>
